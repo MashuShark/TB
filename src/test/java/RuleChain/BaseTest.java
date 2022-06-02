@@ -12,6 +12,9 @@ public class BaseTest {
     static final String ENDPOINT = "/{id}";
     private static final String LOGIN = "/api/auth/login";
 
+    final String LOGIN_TENANT = "tenant@thingsboard.org";
+    final String PASSWORD_TENANT = "tenant";
+    final String TENANT_ID ="d8a57e70-434d-11ec-bee3-bda0f956cf19";
     String body = "{ \"username\": \"tenant@thingsboard.org\", \"password\": \"tenant\"}";
 
     @BeforeSuite
